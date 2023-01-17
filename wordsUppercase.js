@@ -1,7 +1,7 @@
 
     function solve(text) {
         let result = text.toUpperCase()
-          .match(/\s+/g)
+          .match(/[A-z0-9]+/g)
           .join(', ');
         
         console.log(result);
